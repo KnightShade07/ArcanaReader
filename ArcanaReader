@@ -1,0 +1,119 @@
+using System;
+
+namespace ControlStructuresPart3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Arcana();
+        }
+        static void Arcana()
+        {
+            bool loop = true;
+            while (loop)
+            {
+                Console.WriteLine("Enter an Arcana Number (1-13), 0 to quit: ");
+                Console.WriteLine("Menu: ");
+                Console.WriteLine("I - Magician");
+                Console.WriteLine("II - Priestess");
+                Console.WriteLine("III - Empress");
+                Console.WriteLine("IV - Emperor");
+                Console.WriteLine("V - Hierophant");
+                Console.WriteLine("VI - Lovers");
+                Console.WriteLine("VII - Chariot");
+                Console.WriteLine("VIII - Justice");
+                Console.WriteLine("IX - Hermit");
+                Console.WriteLine("X - Fortune");
+                Console.WriteLine("XI - Strength");
+                Console.WriteLine("XII - Hanged Man");
+                Console.WriteLine("XIII - Death");
+
+                int ArcanaReader = Convert.ToInt32(Console.ReadLine());
+                switch (ArcanaReader)
+                {
+                    case 1:
+                        Console.WriteLine("I - Magician");
+                        Console.WriteLine("The moment man devoured the fruit of knowledge, he sealed his fate... Entrusting his future to the cards,");
+                        Console.WriteLine("man clings to a dim hope. Yes, the Arcana is the means by which all is revealed...");
+                        Console.WriteLine("Attaining one's dream requires a stern will and unfailing determination.");
+                        break;
+                    case 2:
+                        Console.WriteLine("II - Priestess");
+                        Console.WriteLine("The Arcana is the means by which all is revealed...");
+                        Console.WriteLine("The silent voice within one's heart whispers the most profound wisdom");
+                        break;
+                    case 3:
+                        Console.WriteLine("III - Empress");
+                        Console.WriteLine("The Arcana is the means by which all is revealed...");
+                        Console.WriteLine("Celebrate life's grandeur... Its brilliance... its magnificence...");
+                        break;
+                    case 4:
+                        Console.WriteLine("IV - Emperor");
+                        Console.WriteLine("The Arcana is the means by which all is revealed...");
+                        Console.WriteLine("Only courage in the face of doubt can lead one to the answer...");
+                        break;
+                    case 5:
+                        Console.WriteLine("V - Hierophant");
+                        Console.WriteLine("The Arcana is the means by which all is revealed...");
+                        Console.WriteLine("It is indeed a precious gift to understand the forces that guide oneself...");
+                        break;
+                    case 6:
+                        Console.WriteLine("VI - Lovers");
+                        Console.WriteLine("The Arcana is the means by which all is revealed...");
+                        Console.WriteLine("There is both joy and wonder in coming to understand another...");
+                        break;
+                    case 7:
+                        Console.WriteLine("VII - Chariot");
+                        Console.WriteLine("The Arcana is the means by which all is revealed...");
+                        Console.WriteLine("One of life's greatest blessings is the freedom to pursue one's goals.");
+                        break;
+                    case 8:
+                        Console.WriteLine("VIII - Justice");
+                        Console.WriteLine("The Arcana is the means by which all is revealed...");
+                        Console.WriteLine("To find the one true path, one must seek guidance amidst uncertainty...");
+                        break;
+                    case 9:
+                        Console.WriteLine("IX - Hermit");
+                        Console.WriteLine("The Arcana is the means by which all is revealed...");
+                        Console.WriteLine("It requires great courage to look at oneself honestly, and forge one's own path...");
+                        break;
+                    case 10:
+                        Console.WriteLine("X - Fortune");
+                        Console.WriteLine("The Arcana is the means by which all is revealed...");
+                        Console.WriteLine("Alongside time exists fate, the bearer of cruelty.");
+                        break;
+                    case 11:
+                        Console.WriteLine("XI - Strength");
+                        Console.WriteLine("The Arcana is the means by which all is revealed...");
+                        Console.WriteLine("Only with strength can one endure suffering and torment.");
+                        break;
+                    case 12:
+                        Console.WriteLine("XII - Hanged Man");
+                        Console.WriteLine("The Arcana is the means by which all is revealed...");
+                        Console.WriteLine("In the face of disaster lies opportunity for renewal.");
+                        break;
+                    case 13:
+                        Console.WriteLine("XIII - Death");
+                        Console.WriteLine("The Arcana is the means by which all is revealed...");
+                        Console.WriteLine("The moment man devoured the fruit of knowledge, he sealed his fate... Entrusting his future to the cards,");
+                        Console.WriteLine("man clings to a dim hope. Yet, the Arcana is the means by which all is revealed... Beyond the beaten path");
+                        Console.WriteLine("lies the absolute end. It matters not who you are... Death awaits you.");
+                        Console.WriteLine("If thou wishes to learn the profound wisdom");
+                        Console.WriteLine("of the arcana, thou only needst to follow this link...:");
+                        Console.WriteLine("https://www.youtube.com/watch?v=N-rSt1PXUDA");
+                        break;
+
+
+
+                }
+                if(ArcanaReader == 0)
+                {
+                    loop = false;
+                }
+            }
+            
+
+        }
+    }
+}
